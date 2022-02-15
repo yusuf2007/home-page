@@ -8,55 +8,55 @@ import Star from "../images/star.png";
 const NavbarSettings = (props) => {
   function dropdown1() {
     document.querySelector(".sub-menu-1").style.display = "block";
-    document.querySelector(".fa-user-o").style.backgroundColor = "white";
-    document.querySelector(".fa-user-o").style.color = "black";
+    document.querySelector(".fa-user").style.backgroundColor = "white";
+    document.querySelector(".fa-user").style.color = "black";
   }
 
   function removeDropdown1() {
     document.querySelector(".sub-menu-1").style.display = "none";
-    document.querySelector(".fa-user-o").style.backgroundColor = "transparent";
-    document.querySelector(".fa-user-o").style.color = "white";
-    document.querySelector(".fa-user-o").style.border = "none";
+    document.querySelector(".fa-user").style.backgroundColor = "transparent";
+    document.querySelector(".fa-user").style.color = "white";
+    document.querySelector(".fa-user").style.border = "none";
   }
 
   function dropdown2() {
     document.querySelector(".sub-menu-2").style.display = "block";
-    document.querySelector(".fa-envelope-o").style.backgroundColor = "white";
-    document.querySelector(".fa-envelope-o").style.color = "black";
+    document.querySelector(".fa-envelope").style.backgroundColor = "white";
+    document.querySelector(".fa-envelope").style.color = "black";
   }
 
   function removeDropdown2() {
     document.querySelector(".sub-menu-2").style.display = "none";
-    document.querySelector(".fa-envelope-o").style.backgroundColor =
+    document.querySelector(".fa-envelope").style.backgroundColor =
       "transparent";
-    document.querySelector(".fa-envelope-o").style.color = "white";
-    document.querySelector(".fa-envelope-o").style.border = "none";
+    document.querySelector(".fa-envelope").style.color = "white";
+    document.querySelector(".fa-envelope").style.border = "none";
   }
 
   function dropdown3() {
     document.querySelector(".sub-menu-3").style.display = "block";
-    document.querySelector(".fa-bell-o").style.backgroundColor = "white";
-    document.querySelector(".fa-bell-o").style.color = "black";
+    document.querySelector(".fa-bell").style.backgroundColor = "white";
+    document.querySelector(".fa-bell").style.color = "black";
   }
 
   function removeDropdown3() {
     document.querySelector(".sub-menu-3").style.display = "none";
-    document.querySelector(".fa-bell-o").style.backgroundColor = "transparent";
-    document.querySelector(".fa-bell-o").style.color = "white";
-    document.querySelector(".fa-bell-o").style.border = "none";
+    document.querySelector(".fa-bell").style.backgroundColor = "transparent";
+    document.querySelector(".fa-bell").style.color = "white";
+    document.querySelector(".fa-bell").style.border = "none";
   }
 
   function dropdown4() {
     document.querySelector(".sub-menu-4").style.display = "block";
-    document.querySelector(".fa-star-o").style.backgroundColor = "white";
-    document.querySelector(".fa-star-o").style.color = "black";
+    document.querySelector(".fa-star").style.backgroundColor = "white";
+    document.querySelector(".fa-star").style.color = "black";
   }
 
   function removeDropdown4() {
     document.querySelector(".sub-menu-4").style.display = "none";
-    document.querySelector(".fa-star-o").style.backgroundColor = "transparent";
-    document.querySelector(".fa-star-o").style.color = "white";
-    document.querySelector(".fa-star-o").style.border = "none";
+    document.querySelector(".fa-star").style.backgroundColor = "transparent";
+    document.querySelector(".fa-star").style.color = "white";
+    document.querySelector(".fa-star").style.border = "none";
   }
 
   return (
@@ -65,7 +65,7 @@ const NavbarSettings = (props) => {
         <ul className="d-flex align-items-center justify-content-evenly flex-start w-100 p-0 m-0 ul">
           <li>
             <a onClick={dropdown1} href="#">
-              <i className="fa fa-user-o p-2" aria-hidden="true"></i>
+              <i class="fa-solid fa-user p-2"></i>
             </a>
             <div onClick={removeDropdown1} className="sub-menu-1">
               <div className="d-flex justify-content-center align-items-center p-3 user-settings">
@@ -77,11 +77,11 @@ const NavbarSettings = (props) => {
                   <p className="m-0 text-light">ixtiyorjonxakimmov@gmail.com</p>
                 </div>
               </div>
-              <div className="d-flex align-items-center p-3">
-                <i className="fa fa-user-o user-icon" aria-hidden="true"></i>
+              <div className="white-bg d-flex align-items-center p-3">
+                <i className="fa fa-user user-icon" aria-hidden="true"></i>
                 <p className="user-text m-0">Mening hisobim</p>
               </div>
-              <div className="d-flex align-items-center p-3 exit-button">
+              <div className="white-bg d-flex align-items-center p-3 exit-button">
                 <i class="fa fa-sign-out sign-out-icon" aria-hidden="true"></i>
                 <p className="user-text m-0">Tizimdan chiqish</p>
               </div>
@@ -89,7 +89,7 @@ const NavbarSettings = (props) => {
           </li>
           <li>
             <a onClick={dropdown2} href="#">
-              <i className="fa fa-envelope-o p-2" aria-hidden="true"></i>
+              <i class="fa-solid fa-envelope p-2"></i>
             </a>
             <div onClick={removeDropdown2} className="sub-menu-2">
               <div className="mail-1 d-flex p-3">
@@ -144,7 +144,7 @@ const NavbarSettings = (props) => {
           </li>
           <li>
             <a onClick={dropdown3} href="#">
-              <i className="fa fa-bell-o  p-2" aria-hidden="true"></i>
+              <i className="fa fa-bell  p-2" aria-hidden="true"></i>
             </a>
             <div onClick={removeDropdown3} className="sub-menu-3">
               <div className="mail-1 d-flex p-3">
@@ -199,7 +199,7 @@ const NavbarSettings = (props) => {
           </li>
           <li>
             <a onClick={dropdown4} href="#">
-              <i className="fa fa-star-o p-2" aria-hidden="true"></i>
+              <i className="fa fa-star p-2" aria-hidden="true"></i>
             </a>
             <div onClick={removeDropdown4} className="sub-menu-4">
               <div className="star-1 d-flex p-3">

@@ -125,25 +125,25 @@
   list-style-type: none;
 }
 
-.fa-user-o {
+.fa-user {
   background-color: transparent;
   color: #fff;
   border-radius: 4px 4px 0 0;
 }
 
-.fa-envelope-o {
+.fa-envelope {
   background-color: transparent;
   color: #fff;
   border-radius: 4px 4px 0 0;
 }
 
-.fa-bell-o {
+.fa-bell {
   background-color: transparent;
   color: #fff;
   border-radius: 4px 4px 0 0;
 }
 
-.fa-star-o {
+.fa-star {
   background-color: transparent;
   color: #fff;
   border-radius: 4px 4px 0 0;
@@ -176,6 +176,10 @@
   position: absolute;
   border: 1px solid #d2ddf8;
   border-radius: 0 4px 4px 4px;
+}
+
+.white-bg {
+  background-color: #fff;
 }
 
 .user-settings {
