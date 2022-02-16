@@ -6,7 +6,7 @@ import GB from "../images/gb.png";
 const Footer = () => {
   return (
     <div className="footer pt-4">
-      <div className="top d-flex justify-content-between">
+      <div className="footer-top d-flex justify-content-between">
         <div className="info">
           <h4 className="m-0 mb-3 text-light">Corporate</h4>
           <p className="text-light">About US</p>

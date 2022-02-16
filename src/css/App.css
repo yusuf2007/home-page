@@ -495,16 +495,25 @@
 
   /* FOOTER */
 
+  .footer {
+    width: 100%;
+  }
+
+  .footer-top {
+    width: 100%;
+  }
+
   .info {
-    padding: 0 10px;
+    padding: 0 8px;
+    width: 20%;
   }
 
   .info h4 {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .info p {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .bottom-info {
@@ -526,12 +535,16 @@
   }
 
   .call-info h5 {
+    font-size: 10px;
+  }
+
+  .call-info p {
     font-size: 12px;
   }
 
   .me-3 {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
   }
 
   /* GMAIL */
@@ -543,22 +556,41 @@
   }
 
   .gmail-info h5 {
+    font-size: 10px;
+  }
+
+  .gmail-info p {
     font-size: 12px;
   }
 
   .me-3 {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
   }
 
   /* LANGUAGE */
 
   .language {
-    width: 96px;
-    height: 32px;
+    width: 72px;
+    height: 26px;
   }
 
   .language p {
-    font-size: 11px;
+    font-size: 8px;
+  }
+
+  .flag {
+    width: 18px;
+    height: 12px;
+  }
+
+  .flag-arrow {
+    font-size: 8px;
+  }
+
+  /* COPYRIGHT */
+
+  .copyright {
+    font-size: 8px;
   }
 }
