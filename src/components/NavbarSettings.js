@@ -60,9 +60,9 @@ const NavbarSettings = (props) => {
   }
 
   return (
-    <div className="right-section d-flex justify-content-around">
-      <div className="icons d-flex justify-content-evenly align-items-center w-75">
-        <ul className="d-flex align-items-center justify-content-evenly flex-start w-100 p-0 m-0 ul">
+    <div className="right-section d-flex">
+      <div className="icons d-flex align-items-center">
+        <ul className="icon-list d-flex align-items-center flex-start w-100 p-0 m-0 ul">
           <li>
             <a onClick={dropdown1} href="#">
               <i class="fa-solid fa-user p-2"></i>

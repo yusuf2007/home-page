@@ -115,7 +115,7 @@ const Main = (props) => {
             </div>
           </div>
         </div>
-        <div className="right w-100 ms-3">
+        <div className="right w-100">
           <Searchbar2 />
           <img className="w-100 mt-4" src={Banner} alt="" />
           <h1 className="my-4">Tavsiya etilgan e’lonlar</h1>
@@ -126,24 +126,10 @@ const Main = (props) => {
             <div className="col">
               <Card />
             </div>
-            <div className="col">
+            <div className="col margin-top">
               <Card />
             </div>
-            <div className="col">
-              <Card />
-            </div>
-          </div>
-          <div className="row mt-5">
-            <div className="col">
-              <Card />
-            </div>
-            <div className="col">
-              <Card />
-            </div>
-            <div className="col">
-              <Card />
-            </div>
-            <div className="col">
+            <div className="col margin-top">
               <Card />
             </div>
           </div>
@@ -154,10 +140,10 @@ const Main = (props) => {
             <div className="col">
               <Card />
             </div>
-            <div className="col">
+            <div className="col margin-top">
               <Card />
             </div>
-            <div className="col">
+            <div className="col margin-top">
               <Card />
             </div>
           </div>
@@ -168,10 +154,24 @@ const Main = (props) => {
             <div className="col">
               <Card />
             </div>
+            <div className="col margin-top">
+              <Card />
+            </div>
+            <div className="col margin-top">
+              <Card />
+            </div>
+          </div>
+          <div className="row mt-5">
             <div className="col">
               <Card />
             </div>
             <div className="col">
+              <Card />
+            </div>
+            <div className="col margin-top">
+              <Card />
+            </div>
+            <div className="col margin-top">
               <Card />
             </div>
           </div>
@@ -182,10 +182,10 @@ const Main = (props) => {
             <div className="col">
               <Card />
             </div>
-            <div className="col">
+            <div className="col margin-top">
               <Card />
             </div>
-            <div className="col">
+            <div className="col margin-top">
               <Card />
             </div>
           </div>
@@ -200,7 +200,7 @@ const Main = (props) => {
               <div className="col">
                 <BigCard />
               </div>
-              <div className="col">
+              <div className="col margin-top">
                 <BigCard />
               </div>
             </div>
