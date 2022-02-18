@@ -1,25 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
 import Searchbar2 from "./Searchbar2.js";
 import Card from "./Card.js";
 import BigCard from "./BigCard.js";
 import Home from "../images/home1.png";
 import Steering from "../images/steering-wheel.png";
 import Banner from "../images/banner.png";
+import Slider from "./Slider.js";
 
 const Main = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <div className="main d-flex">
         <div className="left">
           <div className="top-filter rounded-2 shadow-sm">
-            <div className="fliter d-flex justify-content-between align-items-center p-3">
-              <div className="d-flex align-items-center">
-                <img className="me-2" src={Home} alt="home" />
-                <h4 className="main-text m-0">Ko‘chmas mulk</h4>
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="w-100 border-0 p-0 mb-2 rounded-2 shadow-sm bg-light"
+            >
+              <div className="fliter d-flex justify-content-between align-items-center p-3">
+                <div className="d-flex align-items-center">
+                  <img className="me-2" src={Home} alt="home" />
+                  <h4 className="main-text m-0">Ko‘chmas mulk</h4>
+                </div>
+                <div
+                  className={`card-arrow ${isOpen ? "card-arrow-active" : ""}`}
+                >
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
               </div>
-              <i class="fa-solid fa-angle-up"></i>
-            </div>
-            <div className="second-filter d-flex flex-column">
+            </button>
+            <div
+              className={
+                isOpen
+                  ? "second-filter d-flex flex-column"
+                  : "second-filter show d-flex flex-column"
+              }
+            >
               <div className="card-1 p-2 d-flex justify-content-between">
                 <h6 className="text-light m-0">Xususiy uylar</h6>
                 <h6 className="text-light m-0">(592,268)</h6>
@@ -117,7 +136,7 @@ const Main = (props) => {
         </div>
         <div className="right w-100">
           <Searchbar2 />
-          <img className="w-100 mt-4" src={Banner} alt="" />
+          <Slider />
           <h1 className="my-4">Tavsiya etilgan e’lonlar</h1>
           <div className="row">
             <div className="col">
@@ -190,19 +209,15 @@ const Main = (props) => {
             </div>
           </div>
           <div className="right-bottom mb-4">
-            <div className="right-bottom-info d-flex justify-content-between align-items-center pb-3 my-5">
+            <div className="right-bottom-info d-flex justify-content-between align-items-center pb-3 my-2">
               <h1 className="m-0">Loyihalar</h1>
               <a className="text-decoration-none" href="#">
                 Ko‘proq
               </a>
             </div>
-            <div className="row">
-              <div className="col">
-                <BigCard />
-              </div>
-              <div className="col margin-top">
-                <BigCard />
-              </div>
+            <div className="big-card-holder">
+              <BigCard />
+              <BigCard />
             </div>
           </div>
         </div>

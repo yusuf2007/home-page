@@ -3,7 +3,7 @@ import Img1 from "../images/big-card-img/img1.png";
 
 const BigCard = () => {
   return (
-    <div className="big-card shadow-sm">
+    <div className="big-card shadow-sm mt-5">
       <img className="w-100" src={Img1} alt="" />
       <div className="main-info p-2">
         <h5 className="my-3">Savdo markazi bitkazish sanasi: 2025 yil iyul </h5>
