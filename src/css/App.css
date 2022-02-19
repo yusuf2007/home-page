@@ -616,7 +616,7 @@
     width: 100%;
   }
 
-  .footer-top .info {
+  .footer- top .info {
     padding: 0 8px;
     width: 20%;
   }
@@ -768,7 +768,7 @@
 
   .card {
     width: 185px;
-    height: 215px;
+    height: auto;
   }
 
   .margin-top {
@@ -794,7 +794,7 @@
   }
 
   .contact {
-    width: 50%;
+    width: 70%;
   }
 
   .info {
