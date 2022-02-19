@@ -28,7 +28,7 @@ const Main = (props) => {
                 <div
                   className={`card-arrow ${isOpen ? "card-arrow-active" : ""}`}
                 >
-                  <i class="fa-solid fa-angle-down"></i>
+                  <i class="fa-solid fa-angle-up"></i>
                 </div>
               </div>
             </button>
