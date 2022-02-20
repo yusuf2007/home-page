@@ -417,13 +417,8 @@
   height: 176px;
 }
 
-.top-filter {
+.filter {
   width: 277px;
-}
-
-.bottom-filter {
-  width: 277px;
-  margin-top: 8px;
 }
 
 .right {
@@ -443,7 +438,7 @@
 
 .card {
   width: 230px;
-  height: 250px;
+  height: auto;
 }
 
 .card-info-text {
@@ -558,8 +553,7 @@
     width: 100%;
   }
 
-  .top-filter,
-  .bottom-filter {
+  .filter {
     width: 100%;
   }
 

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Call from "../images/call.png";
 import Gmail from "../images/gmail.png";
 import GB from "../images/gb.png";
-import Language from "./Language";
 
 const Footer = () => {
   return (
@@ -72,7 +71,6 @@ const Footer = () => {
             <p className="text-light m-0">English</p>
             <i class="fa-solid fa-angle-down flag-arrow"></i>
           </div>
-          {/* <Language /> */}
         </div>
         <p className="copyright m-0 py-3">Copyright © 2000-2021 e’lon.uz</p>
       </div>
